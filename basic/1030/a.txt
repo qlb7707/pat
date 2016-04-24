@@ -1,0 +1,175 @@
+USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root         1  0.0  0.0   4456  2540 ?        Ss   05:57   0:01 /sbin/init
+root         2  0.0  0.0      0     0 ?        S    05:57   0:00 [kthreadd]
+root         3  0.0  0.0      0     0 ?        S    05:57   0:00 [ksoftirqd/0]
+root         5  0.0  0.0      0     0 ?        S<   05:57   0:00 [kworker/0:0H]
+root         6  0.0  0.0      0     0 ?        S    05:57   0:01 [kworker/u2:0]
+root         7  0.0  0.0      0     0 ?        S    05:57   0:00 [rcu_sched]
+root         8  0.0  0.0      0     0 ?        S    05:57   0:00 [rcu_bh]
+root         9  0.0  0.0      0     0 ?        S    05:57   0:00 [migration/0]
+root        10  0.0  0.0      0     0 ?        S    05:57   0:00 [watchdog/0]
+root        11  0.0  0.0      0     0 ?        S<   05:57   0:00 [khelper]
+root        12  0.0  0.0      0     0 ?        S    05:57   0:00 [kdevtmpfs]
+root        13  0.0  0.0      0     0 ?        S<   05:57   0:00 [netns]
+root        14  0.0  0.0      0     0 ?        S<   05:57   0:00 [writeback]
+root        15  0.0  0.0      0     0 ?        S<   05:57   0:00 [kintegrityd]
+root        16  0.0  0.0      0     0 ?        S<   05:57   0:00 [bioset]
+root        18  0.0  0.0      0     0 ?        S<   05:57   0:00 [kblockd]
+root        19  0.0  0.0      0     0 ?        S<   05:57   0:00 [ata_sff]
+root        20  0.0  0.0      0     0 ?        S    05:57   0:00 [khubd]
+root        21  0.0  0.0      0     0 ?        S<   05:57   0:00 [md]
+root        22  0.0  0.0      0     0 ?        S<   05:57   0:00 [devfreq_wq]
+root        23  0.0  0.0      0     0 ?        S    05:57   0:03 [kworker/0:1]
+root        25  0.0  0.0      0     0 ?        S    05:57   0:00 [khungtaskd]
+root        26  0.0  0.0      0     0 ?        S    05:57   0:00 [kswapd0]
+root        27  0.0  0.0      0     0 ?        SN   05:57   0:00 [ksmd]
+root        28  0.0  0.0      0     0 ?        SN   05:57   0:00 [khugepaged]
+root        29  0.0  0.0      0     0 ?        S    05:57   0:00 [fsnotify_mark]
+root        30  0.0  0.0      0     0 ?        S    05:57   0:00 [ecryptfs-kthrea]
+root        31  0.0  0.0      0     0 ?        S<   05:57   0:00 [crypto]
+root        43  0.0  0.0      0     0 ?        S<   05:57   0:00 [kthrotld]
+root        46  0.0  0.0      0     0 ?        S    05:57   0:00 [scsi_eh_0]
+root        47  0.0  0.0      0     0 ?        S    05:57   0:00 [scsi_eh_1]
+root        48  0.0  0.0      0     0 ?        S    05:57   0:00 [kworker/u2:2]
+root        69  0.0  0.0      0     0 ?        S<   05:57   0:00 [deferwq]
+root        70  0.0  0.0      0     0 ?        S<   05:57   0:00 [charger_manager]
+root       112  0.0  0.0      0     0 ?        S<   05:57   0:00 [kworker/u3:1]
+root       113  0.0  0.0      0     0 ?        S    05:57   0:00 [scsi_eh_2]
+root       162  0.0  0.0      0     0 ?        S    05:57   0:00 [jbd2/sda1-8]
+root       163  0.0  0.0      0     0 ?        S<   05:57   0:00 [ext4-rsv-conver]
+root       317  0.0  0.0   3008   616 ?        S    05:57   0:00 upstart-udev-bridge --daemon
+root       323  0.0  0.0  12352  1688 ?        Ss   05:57   0:00 /lib/systemd/systemd-udevd --daemon
+message+   386  0.0  0.0   5428  2420 ?        Ss   05:57   0:01 dbus-daemon --system --fork
+root       449  0.0  0.0   4880  1668 ?        Ss   05:57   0:00 /usr/sbin/bluetoothd
+root       452  0.0  0.0      0     0 ?        S<   05:57   0:00 [iprt-VBoxWQueue]
+root       455  0.0  0.0   4212  1780 ?        Ss   05:57   0:00 /lib/systemd/systemd-logind
+syslog     463  0.0  0.0  30480  1292 ?        Ssl  05:57   0:00 rsyslogd
+root       477  0.0  0.0      0     0 ?        S<   05:57   0:00 [krfcommd]
+root       487  0.0  0.0      0     0 ?        S<   05:57   0:00 [kpsmoused]
+root       489  0.0  0.0      0     0 ?        S    05:57   0:00 [kworker/0:2]
+avahi      492  0.0  0.0   3476  1640 ?        S    05:57   0:00 avahi-daemon: running [qlb-VirtualBox.local]
+avahi      493  0.0  0.0   3476   436 ?        S    05:57   0:00 avahi-daemon: chroot helper
+root       515  0.0  0.0   3016   852 ?        S    05:57   0:00 upstart-file-bridge --daemon
+root       611  0.0  0.1  37376  7904 ?        Ssl  05:57   0:00 /usr/sbin/ModemManager
+root       649  0.0  0.1  52104  5740 ?        Ssl  05:57   0:00 NetworkManager
+root       672  0.0  0.1  35116  4664 ?        Sl   05:57   0:00 /usr/lib/policykit-1/polkitd --no-debug
+root       687  0.0  0.0   8852  2884 ?        Ss   05:57   0:00 /usr/sbin/cups-browsed
+root       739  0.0  0.0   3004   852 ?        S    05:57   0:00 upstart-socket-bridge --daemon
+root       813  0.0  0.0   4648   864 tty4     Ss+  05:57   0:00 /sbin/getty -8 38400 tty4
+root       817  0.0  0.0   4648   852 tty5     Ss+  05:57   0:00 /sbin/getty -8 38400 tty5
+root       822  0.0  0.0   4648   860 tty2     Ss+  05:57   0:00 /sbin/getty -8 38400 tty2
+root       823  0.0  0.0   4648   856 tty3     Ss+  05:57   0:00 /sbin/getty -8 38400 tty3
+root       826  0.0  0.0   4648   856 tty6     Ss+  05:57   0:00 /sbin/getty -8 38400 tty6
+kernoops   879  0.0  0.0   6388   952 ?        Ss   05:57   0:00 /usr/sbin/kerneloops
+root       882  0.0  0.0   3056   904 ?        Ss   05:57   0:00 cron
+root       885  0.0  0.1  27744  5080 ?        Ssl  05:57   0:00 gdm
+root       889  0.0  0.0   2196   636 ?        Ss   05:57   0:00 acpid -c /etc/acpi/events -s /var/run/acpid.socket
+whoopsie   893  0.0  0.2  52808  8852 ?        Ssl  05:57   0:00 whoopsie
+root       939  0.0  0.1  45652  7712 ?        Sl   05:57   0:00 /usr/lib/gdm/gdm-simple-slave --display-id /org/gnome/DisplayManager/Displays/_0
+root       986  1.1  1.5 125612 63980 tty7     Ss+  05:57   3:02 /usr/bin/X :0 -background none -verbose -auth /var/run/gdm/auth-for-gdm-P9nLrj/database -seat seat0 -nolisten tcp vt7
+root       988  0.0  0.1  35368  5808 ?        Sl   05:57   0:00 /usr/lib/accountsservice/accounts-daemon
+root      1027  0.0  0.1  30308  6476 ?        Sl   05:57   0:00 gdm-session-worker [pam/gdm-autologin]
+root      1053  0.0  0.0      0     0 ?        S    05:57   0:00 [kauditd]
+qlb       1059  0.0  0.0   7460  2068 ?        Ss   05:57   0:00 init --user
+nobody    1097  0.0  0.0   5552  1428 ?        S    05:57   0:00 /usr/sbin/dnsmasq --no-resolv --keep-in-foreground --no-hosts --bind-interfaces --pid-file=/run/sendsigs.omit.d/network-manager.dnsmasq.pid --listen-address=127.0.1.1 --conf-file=/var/run/NetworkManager/dnsmasq.conf --cache-size=0 --proxy-dnssec --enable-dbus=org.freedesktop.NetworkManager.dnsmasq --conf-dir=/etc/NetworkManager/dnsmasq.d
+qlb       1169  0.0  0.0  15692   272 ?        S    05:57   0:00 /usr/bin/VBoxClient --clipboard
+qlb       1170  0.0  0.0  17388  1732 ?        Sl   05:57   0:00 /usr/bin/VBoxClient --clipboard
+qlb       1181  0.0  0.0  15692   268 ?        S    05:57   0:00 /usr/bin/VBoxClient --display
+qlb       1182  0.0  0.0  17376  1220 ?        Sl   05:57   0:00 /usr/bin/VBoxClient --display
+qlb       1191  0.0  0.0  15692   268 ?        S    05:57   0:00 /usr/bin/VBoxClient --seamless
+qlb       1192  0.0  0.0  17376  1000 ?        Sl   05:57   0:00 /usr/bin/VBoxClient --seamless
+qlb       1197  0.0  0.0  15692   272 ?        S    05:57   0:00 /usr/bin/VBoxClient --draganddrop
+qlb       1198  0.1  0.0  17892  1276 ?        Sl   05:57   0:28 /usr/bin/VBoxClient --draganddrop
+qlb       1216  0.0  0.0   4216   196 ?        Ss   05:57   0:00 ssh-agent
+qlb       1220  0.0  0.0   6672   388 ?        Ss   05:57   0:00 gpg-agent --daemon --sh
+qlb       1228  0.0  0.0   6152  2408 ?        Ss   05:57   0:00 dbus-daemon --fork --session --address=unix:abstract=/tmp/dbus-cVU6HkBUX6
+qlb       1239  0.0  0.0   6344  1084 ?        Ss   05:57   0:00 upstart-event-bridge
+qlb       1263  0.0  0.0   6628   664 ?        S    05:57   0:00 upstart-file-bridge --daemon --user
+qlb       1265  0.0  0.0   6348   604 ?        S    05:57   0:00 upstart-dbus-bridge --daemon --system --user --bus-name system
+qlb       1267  0.0  0.0   6348   608 ?        S    05:57   0:00 upstart-dbus-bridge --daemon --session --user --bus-name session
+root      1287  0.0  0.0  26220  1388 ?        Sl   05:57   0:02 /usr/sbin/VBoxService
+qlb       1295  0.0  0.1  46412  7728 ?        Ssl  05:57   0:04 /usr/bin/ibus-daemon --daemonize --xim
+root      1302  0.0  0.0  21572  3328 ?        Sl   05:57   0:00 /usr/sbin/console-kit-daemon --no-daemon
+qlb       1370  0.0  0.1  29180  4616 ?        Sl   05:57   0:00 /usr/lib/gvfs/gvfsd
+qlb       1377  0.0  0.0   2268   636 ?        Ss   05:57   0:00 /bin/sh /usr/bin/startkde
+qlb       1392  0.0  0.1  37652  7276 ?        Sl   05:57   0:00 /usr/lib/ibus/ibus-dconf
+qlb       1402  0.0  0.0  42328  2876 ?        Sl   05:57   0:00 /usr/lib/gvfs/gvfsd-fuse /run/user/1000/gvfs -f -o big_writes
+qlb       1407  0.0  0.3 331688 13284 ?        Sl   05:57   0:00 /usr/lib/ibus/ibus-ui-gtk3
+qlb       1411  0.0  0.1  41256  7264 ?        Sl   05:57   0:00 /usr/lib/ibus/ibus-x11 --kill-daemon
+qlb       1429  0.0  0.0  42528  3060 ?        Sl   05:57   0:00 /usr/lib/at-spi2-core/at-spi-bus-launcher
+qlb       1447  0.0  0.0   4216  1680 ?        S    05:57   0:00 /bin/dbus-daemon --config-file=/etc/at-spi2/accessibility.conf --nofork --print-address 3
+root      1453  0.0  0.0   4648   852 tty1     Ss+  05:57   0:00 /sbin/getty -8 38400 tty1
+qlb       1460  0.0  0.0  17364  3084 ?        Sl   05:57   0:00 /usr/lib/at-spi2-core/at-spi2-registryd --use-gnome-session
+root      1495  0.0  0.1  51396  4204 ?        Sl   05:57   0:00 /usr/lib/udisks2/udisksd --no-debug
+qlb       1501  0.0  0.1  29380  5104 ?        Sl   05:57   0:01 /usr/lib/ibus/ibus-engine-simple
+qlb       1623  0.0  0.0   2028    56 ?        S    05:57   0:00 /usr/lib/kde4/libexec/start_kdeinit +kcminit_startup
+qlb       1624  0.0  0.3 132876 16000 ?        Ss   05:57   0:00 kdeinit4: kdeinit4 Running...                  
+qlb       1625  0.0  0.2 134704 10568 ?        S    05:57   0:00 kdeinit4: klauncher [kdeinit] --fd=9           
+qlb       1627  0.0  2.2 361588 94360 ?        Sl   05:57   0:01 kdeinit4: kded4 [kdeinit]                      
+qlb       1631  0.0  0.3  89588 14604 ?        S    05:57   0:00 /usr/bin/kglobalaccel
+qlb       1647  0.0  0.4 148012 17752 ?        Sl   05:57   0:00 /usr/bin/kactivitymanagerd
+root      1649  0.0  0.0  37800  4072 ?        Sl   05:57   0:00 /usr/lib/upower/upowerd
+qlb       1758  0.0  0.0   2164   276 ?        S    05:57   0:00 kwrapper4 ksmserver
+qlb       1759  0.0  0.4 159392 18128 ?        Sl   05:57   0:00 kdeinit4: ksmserver [kdeinit]                  
+colord    1761  0.0  0.1  36332  5120 ?        Sl   05:57   0:00 /usr/lib/colord/colord
+root      1777  0.0  0.0  24328  3976 ?        Sl   05:57   0:00 /usr/lib/i386-linux-gnu/systemd-shim
+qlb       1781  0.4  0.8 281220 35676 ?        Sl   05:57   1:16 kwin -session 101ab1ae140e3000144530315200000016300000_1458180449_743500
+qlb       1786  0.0  0.4 108324 19732 ?        SNl  05:57   0:06 /usr/bin/baloo_file
+qlb       1787  1.8  3.1 527748 131104 ?       Sl   05:57   4:47 /usr/bin/plasma-desktop
+qlb       1801  0.0  0.3  88748 14668 ?        S    05:57   0:00 /usr/bin/kuiserver
+qlb       1804  0.0  0.2  49208 10204 ?        Sl   05:57   0:00 /usr/lib/telepathy/mission-control-5
+qlb       1809  0.0  0.3 134184 16324 ?        Sl   05:57   0:00 /usr/lib/gnome-online-accounts/goa-daemon
+qlb       1821  0.0  0.2  67596 10120 ?        Sl   05:57   0:00 /usr/bin/akonadi_control
+qlb       1823  0.0  0.4 283956 17120 ?        Sl   05:57   0:00 akonadiserver
+qlb       1825  0.0  0.7 241876 29728 ?        Sl   05:57   0:06 /usr/sbin/mysqld --defaults-file=/home/qlb/.local/share/akonadi/mysql.conf --datadir=/home/qlb/.local/share/akonadi/db_data/ --socket=/tmp/akonadi-qlb.h6YIce/mysql.socket
+qlb       1857  0.0  0.6 321616 28828 ?        Sl   05:57   0:00 /usr/bin/kmix -session 101ab1ae140e3000144491558800000036210018_1458180449_728897
+qlb       1858  0.0  0.8 263296 35736 ?        Sl   05:57   0:00 /usr/bin/krunner
+qlb       1863  0.0  0.1 101788  5484 ?        S<l  05:57   0:00 /usr/bin/pulseaudio --start --log-target=syslog
+rtkit     1865  0.0  0.0  21364  1208 ?        SNl  05:57   0:00 /usr/lib/rtkit/rtkit-daemon
+qlb       1871  0.0  0.5 112752 24240 ?        Sl   05:57   0:05 /usr/bin/konsole -session 101ab1ae140e3000144534283300000016300023_1458180449_729042
+qlb       1892  0.0  0.4  99416 17328 ?        Sl   05:57   0:00 /usr/bin/akonadi_agent_launcher akonadi_akonotes_resource akonadi_akonotes_resource_0
+qlb       1893  0.0  0.7 170560 30564 ?        S    05:57   0:00 /usr/bin/akonadi_archivemail_agent --identifier akonadi_archivemail_agent
+qlb       1894  0.0  0.4  97992 19864 ?        SN   05:57   0:00 /usr/bin/akonadi_baloo_indexer --identifier akonadi_baloo_indexer
+qlb       1895  0.0  0.4  98972 16816 ?        Sl   05:57   0:00 /usr/bin/akonadi_agent_launcher akonadi_contacts_resource akonadi_contacts_resource_0
+qlb       1896  0.0  0.4  99536 17200 ?        Sl   05:57   0:00 /usr/bin/akonadi_agent_launcher akonadi_ical_resource akonadi_ical_resource_0
+qlb       1897  0.0  0.4  99304 17176 ?        Sl   05:57   0:00 /usr/bin/akonadi_agent_launcher akonadi_maildir_resource akonadi_maildir_resource_0
+qlb       1898  0.0  0.4  97564 19524 ?        S    05:57   0:00 /usr/bin/akonadi_maildispatcher_agent --identifier akonadi_maildispatcher_agent
+qlb       1900  0.0  0.7 170556 30588 ?        S    05:57   0:00 /usr/bin/akonadi_mailfilter_agent --identifier akonadi_mailfilter_agent
+qlb       1901  0.0  0.4  93112 18516 ?        S    05:57   0:00 /usr/bin/akonadi_migration_agent --identifier akonadi_migration_agent
+qlb       1902  0.0  0.5 103964 21220 ?        S    05:57   0:00 /usr/bin/akonadi_newmailnotifier_agent --identifier akonadi_newmailnotifier_agent
+qlb       1904  0.0  0.6 153284 26432 ?        S    05:57   0:00 /usr/bin/akonadi_notes_agent --identifier akonadi_notes_agent
+qlb       1906  0.0  0.0   9180  4060 pts/2    Ss+  05:57   0:00 /bin/bash
+qlb       1917  0.0  0.6 162128 27680 ?        S    05:57   0:00 /usr/bin/akonadi_sendlater_agent --identifier akonadi_sendlater_agent
+qlb       1937  0.0  0.5 112772 24236 ?        Sl   05:57   0:05 /usr/bin/konsole -session 101ab1ae140e3000145068308200000016750025_1458180449_730452
+qlb       1939  0.0  0.1  67836  6252 ?        Sl   05:57   0:00 /usr/bin/zeitgeist-datahub
+qlb       1943  0.0  0.0  64256  3752 ?        Sl   05:57   0:00 /usr/lib/i386-linux-gnu/deja-dup/deja-dup-monitor
+qlb       1952  0.0  0.2  76892  8580 ?        Sl   05:57   0:00 /usr/lib/tracker/tracker-store
+qlb       1954  0.0  0.1  43460  4304 ?        Sl   05:57   0:00 /usr/bin/zeitgeist-daemon
+qlb       1956  0.0  0.1  78692  7908 ?        SNl  05:57   0:00 /usr/lib/tracker/tracker-miner-fs
+qlb       1964  0.0  0.3  66444 12592 ?        Sl   05:57   0:00 /usr/lib/i386-linux-gnu/zeitgeist-fts
+qlb       1979  0.0  0.0   5676   540 ?        S    05:57   0:00 /bin/cat
+qlb       2000  0.0  0.0  39096  4092 ?        Sl   05:57   0:00 /usr/lib/gvfs/gvfs-udisks2-volume-monitor
+qlb       2002  0.0  0.3  89368 15976 ?        S    05:57   0:00 /usr/bin/klipper
+qlb       2006  0.0  0.1  39768  4712 ?        Sl   05:57   0:00 /usr/lib/gvfs/gvfs-afc-volume-monitor
+qlb       2012  0.0  0.1  28616  4600 ?        Sl   05:57   0:00 /usr/lib/gvfs/gvfs-mtp-volume-monitor
+qlb       2018  0.0  0.0  28240  2636 ?        Sl   05:57   0:00 /usr/lib/gvfs/gvfs-goa-volume-monitor
+qlb       2023  0.0  0.0  29728  2760 ?        Sl   05:57   0:00 /usr/lib/gvfs/gvfs-gphoto2-volume-monitor
+qlb       2030  0.0  0.3 100416 16392 ?        Sl   05:57   0:00 /usr/lib/kde4/libexec/polkit-kde-authentication-agent-1
+qlb       2065  0.0  2.8 944876 118612 ?       Sl   05:57   0:02 /usr/lib/firefox/firefox
+qlb       2070  0.0  0.3 104440 16304 ?        Sl   05:57   0:00 /usr/bin/knotify4
+qlb       2072  0.0  0.0   9180  4068 pts/8    Ss+  05:57   0:00 /bin/bash
+qlb       2151  0.0  0.0  10500  2424 ?        S    05:57   0:00 /usr/lib/i386-linux-gnu/gconf/gconfd-2
+qlb       2165  0.0  0.0   5676   540 ?        SN   05:57   0:00 /bin/cat
+qlb       2167  0.0  0.0   5676   536 ?        SN   05:57   0:00 /bin/cat
+qlb       2170  0.0  0.0   5676   536 ?        SN   05:57   0:00 /bin/cat
+qlb       2171  0.0  0.0   5676   536 ?        SN   05:57   0:00 /bin/cat
+qlb       2172  0.0  0.0   5676   536 ?        SN   05:57   0:00 /bin/cat
+qlb       2191  0.0  0.1  97968  4924 ?        S<l  05:57   0:00 /usr/bin/pulseaudio --start --log-target=syslog
+qlb       2209  0.1  0.7 125032 29356 ?        Sl   05:58   0:18 /usr/bin/konsole
+qlb       2213  0.0  0.1   9244  4304 pts/11   Ss   05:58   0:00 /bin/bash
+root      2623  0.0  0.0   8288  3260 ?        Ss   06:13   0:00 /usr/sbin/cupsd -f
+lp        2626  0.0  0.0   6944  1788 ?        S    06:13   0:00 /usr/lib/cups/notifier/dbus dbus:// 
+root      2702  0.0  0.0      0     0 ?        S<   06:14   0:00 [kworker/u3:2]
+qlb       2929  0.0  0.0  24512  2388 ?        Sl   07:13   0:00 /usr/lib/dconf/dconf-service
+qlb       2938  0.0  0.1  19456  4604 ?        Sl   07:18   0:00 /usr/lib/gvfs/gvfsd-metadata
+qlb       3336  0.0  0.0   6652  1188 pts/11   R+   10:22   0:00 ps -aux
